@@ -223,7 +223,7 @@ a {
 
 .pricing-addon-btn:hover {
     border-radius: 2px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
@@ -2667,7 +2667,10 @@ article.pricing-table-article2 {
 }
 
 @media screen and (max-width: 849px) {
+    .default {
+            width: 85px;
 
+    }
     article th:first-child {
         width: 0;
     }
