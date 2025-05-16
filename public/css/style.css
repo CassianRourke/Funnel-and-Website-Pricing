@@ -2398,11 +2398,11 @@ article.pricing-table-article2 {
         width: 100%;
         padding: 0;
     }
-    
-.comp-tooltip {
-    width: 90px;
-    top: -30px !important;
-}
+
+    .comp-tooltip {
+        width: 90px;
+        top: -30px !important;
+    }
 }
 
 @media (min-width: 640px) {
@@ -2410,6 +2410,7 @@ article.pricing-table-article2 {
     .pricing-table-article ul.mobile-price-navigation {
         display: none;
     }
+
     .pricing-table-article td,
     .pricing-table-article th {
         display: table-cell !important;
@@ -2668,9 +2669,9 @@ article.pricing-table-article2 {
 
 @media screen and (max-width: 849px) {
     .default {
-            width: 85px;
-
+        width: 85px;
     }
+
     article th:first-child {
         width: 0;
     }
@@ -2745,5 +2746,3 @@ article.pricing-table-article2 {
         display: none;
     }
 }
-
-    
